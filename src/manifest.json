@@ -3,10 +3,10 @@
   "name": "Tab Switch Shortcuts",
   "short_name": "Tab Switch",
   "version": "1.0",
-  "description": "Assign custom shortcuts for navigating to the tab left or right while respecting collapsed tab groups.",
+  "description": "Assign keyboard shortcuts for navigating to the tab to the left or right while skipping over collapsed tab groups.",
   "developer": {
     "name": "Tobias Neuschäfer",
-    "url": "https://github.com/tobiasneuschaefer"
+    "url": "https://github.com/tobiasneuschaefer/Tab-Switch-Shortcuts"
   },
   "permissions": ["tabGroups"],
   "background": {
