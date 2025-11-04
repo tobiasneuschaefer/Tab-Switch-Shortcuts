@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Tab Switch Shortcuts",
-  "short_name": "Tab Switch",
+  "name": "__MSG_extensionName__",
+  "short_name": "__MSG_extensionShortName__",
   "version": "1.0",
-  "description": "Assign keyboard shortcuts for navigating to the tab to the left or right while skipping over collapsed tab groups.",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
   "developer": {
     "name": "Tobias Neuschäfer",
     "url": "https://github.com/tobiasneuschaefer/Tab-Switch-Shortcuts"
@@ -21,13 +22,13 @@
       "suggested_key": {
         "default": "Alt+Period"
       },
-      "description": "Switch to the tab to the right"
+      "description": "__MSG_focusRightTabCommand__"
     },
     "focus-left-tab": {
       "suggested_key": {
         "default": "Alt+Comma"
       },
-      "description": "Switch to the tab to the left"
+      "description": "__MSG_focusLeftTabCommand__"
     }
   },
   "browser_specific_settings": {

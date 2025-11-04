@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Tab Switch Shortcuts",
+    "description": "Name of the extension in the manifest."
+  },
+
+  "extensionShortName": {
+    "message": "Tab Switch",
+    "description": "Short name of the extension in the manifest."
+  },
+
+  "extensionDescription": {
+    "message": "Fügt Tastenkombinationen hinzu, um zum nächsten Tab links oder rechts zu wechseln und dabei eingeklappte Tab-Gruppen zu überspringen.",
+    "description": "Description of the extension in the manifest."
+  },
+
+  "focusRightTabCommand": {
+    "message": "Zum Tab rechts wechseln",
+    "description": "Description of the \"focus-right-tab\" in the manifest."
+  },
+
+  "focusLeftTabCommand": {
+    "message": "Zum Tab links wechseln",
+    "description": "Description of the \"focus-left-tab\" in the manifest."
+  }
+}
