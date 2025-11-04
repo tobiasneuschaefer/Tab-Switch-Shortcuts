@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Switch Shortcuts",
+  "short_name": "Tab Switch",
+  "version": "1.0",
+  "description": "Assign custom shortcuts for navigating to the tab left or right while respecting collapsed tab groups.",
+  "developer": {
+    "name": "Tobias Neuschäfer",
+    "url": "https://github.com/tobiasneuschaefer"
+  },
+  "permissions": ["tabGroups"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "commands": {
+    "focus-right-tab": {
+      "suggested_key": {
+        "default": "Alt+Period"
+      },
+      "description": "Switch to the tab to the right"
+    },
+    "focus-left-tab": {
+      "suggested_key": {
+        "default": "Alt+Comma"
+      },
+      "description": "Switch to the tab to the left"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-switch-shortcuts@tobiasneuschaefer",
+      "strict_min_version": "139.0"
+    }
+  }
+}
